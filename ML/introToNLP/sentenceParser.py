@@ -51,4 +51,4 @@ plt.ylabel("Gold")
 plt.tight_layout()
 plt.show()
 
-print(df["Gold"])
+print(df.head())

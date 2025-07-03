@@ -5,7 +5,8 @@ import numpy as np
 # Simulate binomial data: 10 trials per experiment, p=0.6, repeated 100 times
 n = 10
 np.random.seed(0)
-data = np.random.binomial(n=n, p=0.6, size=100)
+data = np.random.binomial(n=n, p=0.73
+                          , size=1000)
 
 # Negative log-likelihood for binomial
 def neg_log_likelihood_binom(p):

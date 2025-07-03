@@ -37,7 +37,7 @@ if __name__ == "__main__":
     X, _ = make_blobs(n_samples=300, centers=4, cluster_std=0.6, random_state=0)
     
     # Rodando K-means
-    k = 4
+    k = 3
     centroids, labels = kmeans(X, k)
 
     # Visualizando
